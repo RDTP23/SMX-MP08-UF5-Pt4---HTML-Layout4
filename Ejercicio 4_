@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <style>
+    body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0f1626;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            padding: 10px;
+            resize: both;
+            overflow: auto;
+        }
+        .combined-box {
+            display: flex;
+            width: 100%;
+            height: auto;
+        }
+        .half-1 {
+            background-color: #FFFFE0;
+            flex: 3;
+            padding: 10px;
+            text-align: center;
+            color: black; 
+        }
+        .half-2 {
+            background-color: #FFB6C1;
+            flex: 7;
+            padding: 10px;
+            text-align: center;
+            color: black; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejercicio 4:</h1>
+    <div class="container">
+        <div class="combined-box">
+            <div class="half-1">
+                Crezco hacia abajo y tengo un ancho máximo de 150px
+                <br>[206 x 200]
+            </div>
+            <div class="half-2">
+                Ocupo el resto de espacio sobrante
+                <br>[619 x 200]
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
